@@ -1,0 +1,24 @@
+{
+  "id": "qua794jvsh_what_is_the_capital_of_kerala",
+  "data": {
+    "action": "text",
+    "contexts": [
+      "global"
+    ],
+    "enabled": true,
+    "answers": {
+      "en": [
+        "T"
+      ]
+    },
+    "questions": {
+      "en": [
+        "What is the capital of kerala ?",
+        "Capital of kerala",
+        "kerala"
+      ]
+    },
+    "redirectFlow": "",
+    "redirectNode": ""
+  }
+}

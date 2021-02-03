@@ -1,0 +1,20 @@
+[
+  {
+    "id": "builtin_card-RvtCYb",
+    "formData": {
+      "title$en": "Welcome",
+      "subtitle$en": "Welcome to asista",
+      "image$en": "/api/v1/bots/asista-weather/media/u3sger6rmiv9g2zndez5-tree-736885__340.jpg",
+      "actions$en": [
+        {
+          "action": "Open URL",
+          "title": "Asista.com",
+          "url": "www.asista.com"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2021-01-14T11:37:40.836Z",
+    "modifiedOn": "2021-01-14T11:37:40.836Z"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "locked": false,
+  "disabled": false,
+  "private": false,
+  "details": {
+    "website": "",
+    "phoneNumber": "+91-9656565354",
+    "emailAddress": "denny.john@gmail.com",
+    "termsConditions": "https://www.asista.com/",
+    "privacyPolicy": "https://www.asista.com/",
+    "avatarUrl": "/api/v1/bots/asista-weather/media/rihagi8uv2lfwbns5f23-chat-bot-logo.jpg",
+    "coverPictureUrl": "/api/v1/bots/asista-weather/media/1wcxe388pcdwowh9a9v9-tree-736885__340.jpg"
+  },
+  "$schema": "../../bot.config.schema.json",
+  "description": "Gets the current weather for a given city",
+  "active": true,
+  "version": "12.15.1",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_action-button",
+      "builtin_card",
+      "builtin_carousel",
+      "builtin_image",
+      "builtin_single-choice",
+      "builtin_text",
+      "dropdown"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "en",
+  "languages": [
+    "en"
+  ],
+  "id": "asista-weather",
+  "name": "Asista Weather",
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_on": "2021-01-14T10:55:32.365Z",
+      "promoted_by": "account.1.13@gmail.com"
+    }
+  }
+}
